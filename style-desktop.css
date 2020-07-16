@@ -141,10 +141,7 @@ div.portrait img {
 
 @media screen and (max-width: 640px) {
 
-    #cv main,
-    #start main,
-    #cv section.left,
-    #cv section.right {
+     {
         display: block;
     }
 
