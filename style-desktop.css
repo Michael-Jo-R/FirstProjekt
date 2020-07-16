@@ -132,6 +132,20 @@ div.portrait img {
     margin: 50px 0 25px 50px;
 }
 
+#skills section.left img {
+    margin: 10px;
+    padding: 10px;
+    background: #cab15f;
+    width: 8%;
+    height: auto;
+    position: left;
+}
+
+#skills section.right {
+    width: 30%;
+    position: right
+}
+
 #cv main {
     display: flex;
     flex-wrap: wrap;
@@ -139,88 +153,82 @@ div.portrait img {
 
 }
 
-@media screen and (max-width: 640px) {
+main {
+    margin: 50px 10px;
+}
 
-     {
-        display: block;
-    }
+h1 {
+    margin-left: 10px;
+}
 
-    main {
-        margin: 50px 10px;
-    }
+#start h2 {
+    margin-left: 0px;
+}
 
-    h1 {
-        margin-left: 10px;
-    }
+form {
+    margin: 20px 0 50px 80px;
+}
 
-    #start h2 {
-        margin-left: 0px;
-    }
+:focus {
+    outline: none;
+}
 
-    form {
-        margin: 20px 0 50px 80px;
-    }
+::placeholder {
+    color: goldenrod;
+}
 
-    :focus {
-        outline: none;
-    }
+label {
+    font-size: 20px;
+    display: inline-block;
+    width: 260px;
+    color: #cab15f;
+}
 
-    ::placeholder {
-        color: goldenrod;
-    }
+input[type=text],
+input[type=email] {
+    font-size: 14px;
+    width: 300px;
+    height: 36px;
+    padding: 8px;
+    margin: 8px 0 20px 0;
+    border: none;
+    border-bottom: 1px solid #999;
+}
 
-    label {
-        font-size: 20px;
-        display: inline-block;
-        width: 260px;
-        color: #cab15f;
-    }
-
-    input[type=text],
-    input[type=email] {
-        font-size: 14px;
-        width: 300px;
-        height: 36px;
-        padding: 8px;
-        margin: 8px 0 20px 0;
-        border: none;
-        border-bottom: 1px solid #999;
-    }
-
-    input[type=submit] {
-        padding: 10px 36px;
-        font-weight: bold;
-        font-size: 18px;
-        color: #666;
-        cursor: pointer;
-        border: 1px solid #999;
-        margin-left: 102px;
-    }
+input[type=submit] {
+    padding: 10px 36px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    border: 1px solid #999;
+    margin-left: 102px;
+}
 
 
+input[type=checkbox] {
+    margin: 0 20px 20px 265px;
+}
+
+textarea {
+    resize: none;
+    vertical-align: top;
+    font-size: 16px;
+    width: 500px;
+    height: 80px;
+    padding: 8px;
+    margin: 8px 0 20px 0;
+    border: none;
+    border-bottom: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+    border-right: 1px solid #999;
+}
+
+@media screen and (max-width: 893px) {
     input[type=checkbox] {
-        margin: 0 20px 20px 265px;
+        margin: 0 20px 20px 0;
     }
-
-    textarea {
-        resize: none;
-        vertical-align: top;
-        font-size: 16px;
-        width: 500px;
-        height: 80px;
-        padding: 8px;
-        margin: 8px 0 20px 0;
-        border: none;
-        border-bottom: 1px solid #999;
-    }
-
-    input:focus,
-    textarea:focus {
-        border-right: 1px solid #999;
-    }
-
-    @media screen and (max-width: 893px) {
-        input[type=checkbox] {
-            margin: 0 20px 20px 0;
-        }
-    }
+}
